@@ -1,0 +1,155 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> University website - designe from AKHRIB </title>
+    <link rel="stylesheet" href="..\css\css-file.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <section class="sub-header-page">
+        <nav>
+            <a href="html-file.html"><img src="../images/logo.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="html-file.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2022</h1>
+    </section>
+    <!-------blog page -------->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="../my-images/mee.png" alt="">
+                <h2>Our Certificate & Online Programs For 2022</h2>
+                <p> The concept of traditional education has changed radically within the last couple of years. Being
+                    physically present in a classroom isn’t the only learning option anymore — not with the rise of the
+                    internet and new technologies, at least. Nowadays, you have access to a quality education whenever
+                    and wherever you want, as long as you can get online. We are now entering a new era — the revolution
+                    of online education.</p>
+                <br>
+                <p>There's no need to discount the skepticism surrounding education through the internet. It’s hard to
+                    understand the notion of leaving behind the conventional classroom, especially if it's to face this
+                    vast space called The Internet.
+                </p><br>
+                <p>However, that’s not reason enough to shy away from this alternative, which has proven to be valid and
+                    useful for many students. According to the most recent survey from Babson Survey Research Group,
+                    over 30 percent of higher education students in the United States are taking at least one distance
+                    course. Online education is a sensible choice whether you’re a teenager or an adult. As a student,
+                    this can be a useful learning method for sharpening your skills in a difficult subject, or learning
+                    a new skill. </p>
+                <br>
+                <p>Online education enables the teacher and the student to set their own learning pace, and there’s the
+                    added flexibility of setting a schedule that fits everyone’s agenda. As a result, using an online
+                    educational platform allows for a better balance of work and studies, so there’s no need to give
+                    anything up. Studying online teaches you vital time management skills, which makes finding a good
+                    work-study balance easier. Having a common agenda between the student and teacher can also prompt
+                    both parties to accept new responsibilities and have more autonomy.
+                </p>
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter email">
+                        <textarea  rows="5" placeholder="Your Comment"></textarea>
+                        <button type="Submit" class="hero-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>         21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine learning</span>
+                    <span>48</span>
+                </div>
+                <div>
+                    <span>computer Science</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>36</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>24</span>
+                </div>
+                <div>
+                    <span>Physics</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Bio-Technology</span>
+                    <span>12</span>
+                </div>
+                <div>
+                    <span>History science</span>
+                    <span>16</span>
+                </div>
+                <div>
+                    <span>Cyber Security</span>
+                    <span>58</span>
+                </div>
+                <div>
+                    <span>ELectorinics</span>
+                    <span>18</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-------blog page -------->
+
+    <!-------- footer -------->
+    <section class="section footer">
+        <h4>About Us</h4>
+        <p>Ecole Nationale Supérieure d'Informatique (ESI), Alger Oued Smar, 16309</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>MADE WITH <i class="fa fa-heart-o"></i> by Akhrib Abderahmane</p>
+    </section>
+    <!-- ------ footer -------->
+    <!-- it's java script-->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu() {
+            navlinks.style.right = "0px"
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px"
+        }
+    </script>
+    <!-- it's java script-->
+</body>
+
+</html>

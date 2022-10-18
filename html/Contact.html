@@ -1,0 +1,109 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> University website - designe from AKHRIB </title>
+    <link rel="stylesheet" href="..\css\css-file.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <section class="sub-header-page">
+        <nav>
+            <a href="html-file.html"><img src="../images/logo.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="html-file.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+       <h1>CONTACT US</h1>
+    </section>
+
+    <!--------contact us ----->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12794.919272151292!2d3.1739156!3d36.7050299!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x215c157a5406653c!2sEcole%20Nationale%20Sup%C3%A9rieure%20d&#39;Informatique!5e0!3m2!1sfr!2sdz!4v1659868157028!5m2!1sfr!2sdz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>oued smar road, ESI building</h5>
+                        <p>ALGER</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5> +213666492024</h5>
+                        <p>sunday to wednesday,10 AM to 06 PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5> la_akhrib@esi.dz</h5>
+                        <p>email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form-haner.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Your Email adress" required>
+                    <input type="text" name="subject" placeholder="Enter Your subject" required>
+                    <textarea  rows="10" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn">Send message</button>
+
+                </form>
+                
+            </div>
+        </div>
+    </section>
+    <!--------contact us ----->
+
+    
+    <!-- ------ footer -------->
+    <section class="section footer">
+        <h4>About Us</h4>
+        <p>Ecole Nationale Supérieure d'Informatique (ESI), Alger Oued Smar, 16309</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+</div>
+<p>MADE WITH <i class="fa fa-heart-o"></i> by Akhrib Abderahmane</p>
+    </section>
+    <!-- ------ footer -------->
+    <!-- it's java script-->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu() {
+            navlinks.style.right = "0px"
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px"
+        }
+    </script>
+    <!-- it's java script-->
+</body>
+
+</html>
